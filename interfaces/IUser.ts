@@ -7,3 +7,5 @@ export const IUser = z.object({
     phone: z.string().min(7 , "telefone invalido"),
     age: z.number().min(1, "idade deve ser maior que zero")
 })
+
+export type IUser = z.infer<typeof IUser>
