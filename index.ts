@@ -4,6 +4,7 @@ import userRoutes from './modules/User/userRoutes';
 
 const app = express();
 const port = 3000;
+app.use(express.json());
 
 (async () => {
   try {

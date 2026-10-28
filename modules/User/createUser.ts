@@ -17,3 +17,4 @@ async function createUser(user:IUser){
         return("erro ao inserir usuário");
     }
 }
+export default createUser;
